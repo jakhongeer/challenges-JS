@@ -13,3 +13,10 @@ body {
 .centralize {
     padding-top: 7%;
 }
+
+.crown {
+    width: 75%;
+    height: 75%;
+    padding: 0;
+    margin: 0;
+}
