@@ -1,11 +1,15 @@
 body {
     font-family: "Pacifico", cursive;
     background-color: #FFDAB9;
+    text-align: center;
 }
 
 #title {
     font-size: 6rem;
     color: #002366;
-    text-align: center;
     margin-top: 0;
+}
+
+.centralize {
+    padding-top: 7%;
 }
