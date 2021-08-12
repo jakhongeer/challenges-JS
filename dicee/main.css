@@ -11,13 +11,21 @@ body {
 }
 
 .centralize {
-    padding-top: 7%;
+    padding-top: 5%;
 }
 
-.crown {
-    display: none;
-    width: 75%;
-    height: 75%;
-    padding: 0;
-    margin: 0;
+#crown1 {
+    visibility: hidden;
+    width: 30%;
+    padding-bottom: 3%;
+    margin: auto;
 }
+
+
+#crown2 {
+    visibility: hidden;
+    width: 30%;
+    padding-bottom: 3%;
+    margin: auto;
+}
+
