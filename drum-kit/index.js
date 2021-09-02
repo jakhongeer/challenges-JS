@@ -41,6 +41,9 @@ for (var i = 0; i <numberOfDrums; i++) {
         var kickbass = new Audio("sounds/crash.mp3");
         kickbass.play()
         break;
+
+      default:
+        console.log(buttonInnerHTML)
     }
 
   })
