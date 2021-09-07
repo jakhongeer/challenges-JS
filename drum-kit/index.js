@@ -77,3 +77,11 @@ function buttonAnimation(currentKey) {
   }, 100)
 }
 
+var playSound = function(i) {
+  setTimeout(function() {
+    document.getElementsByClassName("drum")[i].click();
+  }, 1000);   // one second
+  if(i <= 6) {
+      playSound(i+1);
+  }
+};

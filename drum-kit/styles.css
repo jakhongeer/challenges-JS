@@ -45,7 +45,7 @@ footer {
 }
 
 .set {
-  margin: 10% auto;
+  margin: 10% auto 5%;
 }
 
 .game-over {
@@ -78,4 +78,21 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+.playsound {
+  margin-bottom: 3%;
+}
+.play-sound {
+  outline: none;
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 10px;
+}
+.play-sound:active {
+  color: black;
 }
