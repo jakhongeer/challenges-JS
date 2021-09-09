@@ -10,6 +10,10 @@ function nextSequence() {
     gamePattern.push(randomChosenColor)
 }
 
+$(".btn").on("click",(function() {
+    
+    $("#" + this.id).fadeOut(100).fadeIn(100);
+    
+}))
 
 
- 
