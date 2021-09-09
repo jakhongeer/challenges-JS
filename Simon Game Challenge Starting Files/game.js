@@ -51,7 +51,10 @@ function checkAnswer(currentLevel) {
     }
 
     else {
-        console.log("Wrong")
+        $("body").addClass("game-over")
+        setTimeout(function() {
+            $("body").removeClass("game-over")
+        }, 200)
     }
 }
 
