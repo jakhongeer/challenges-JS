@@ -24,4 +24,4 @@ $("h2").after("<h3>I believe you.</h3>")
 $(".btn").on("click", function() {
     $("h2").toggle()
 })
-//.hide() .show()
+//.hide() /show()
